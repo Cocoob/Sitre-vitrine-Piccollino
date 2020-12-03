@@ -52,6 +52,7 @@ body {
 
 .no-padding {
     padding: 0;
+    margin: 0;
 }
 
 .carousel-inner {
@@ -74,4 +75,41 @@ body {
     filter: invert(100%);
 }
 
+p {
+    padding: 0 2%;
+}
+
+/* Nos gammes */
+.gammes-container {
+    background-image: url('../IMG2/Piccolino_FondSite.png');
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+.gammes-title {
+    letter-spacing: 0.3rem;
+    position: relative;
+    font-size: 4em;
+}
+
+.gammes-title::before {
+    content: "";
+    width: 100%;
+    padding: 0 5%;
+    height: 2px;
+    background-color: #DFCB00;
+    position: absolute;
+    bottom: 0;
+}
+
+.gammes-sous-title {
+    font-size: 3em;
+    width: 80%;
+}
+
+.btn {
+    background-color: #DFCB00;
+}
 
