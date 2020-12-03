@@ -64,3 +64,22 @@ body {
     height: 20vh;
     opacity: 0.8;
 }
+
+.carousel img {
+    height: 100vh;
+}
+
+.carousel-control-next,
+.carousel-control-prev /*, .carousel-indicators */ {
+    filter: invert(100%);
+    background-color:black;
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon {
+    height: 50%;
+
+}
+
+.icon {
+    height: 100px;
+}
