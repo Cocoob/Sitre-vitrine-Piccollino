@@ -72,14 +72,6 @@ body {
 .carousel-control-next,
 .carousel-control-prev /*, .carousel-indicators */ {
     filter: invert(100%);
-    background-color:black;
 }
 
-.carousel-control-next-icon, .carousel-control-prev-icon {
-    height: 50%;
 
-}
-
-.icon {
-    height: 100px;
-}
