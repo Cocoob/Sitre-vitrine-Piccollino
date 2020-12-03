@@ -113,3 +113,20 @@ p {
     background-color: #DFCB00;
 }
 
+.card {
+    width: 18rem;
+}
+
+@media only screen and (max-width:400px){
+    .card {
+        width: 21rem;
+    }
+
+    .gammes-title {
+        font-size: 2em;
+    }
+
+    .gammes-sous-title {
+        font-size: 1.5em;
+    }
+}
