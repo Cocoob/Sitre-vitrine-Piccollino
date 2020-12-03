@@ -105,16 +105,12 @@ p {
 }
 
 .gammes-sous-title {
-    font-size: 3em;
+    font-size: 2.5em;
     width: 80%;
 }
 
 .btn {
     background-color: #DFCB00;
-}
-
-.card {
-    width: 18rem;
 }
 
 @media only screen and (max-width:400px){
@@ -129,4 +125,11 @@ p {
     .gammes-sous-title {
         font-size: 1.5em;
     }
+}
+
+/* Notre Histoire */
+
+.rounded-circle {
+    width: 50%;
+    ;
 }
