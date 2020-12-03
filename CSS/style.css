@@ -133,3 +133,45 @@ p {
     width: 50%;
     ;
 }
+
+/* Nos origines */
+
+.origin {
+    margin-top: 10rem;
+    position: relative;
+}
+
+
+.origin::after {
+    content: "";
+    width: 50%;
+    padding: 0 5%;
+    height: 3px;
+    background-color: #DFCB00;
+    position: absolute;
+    top: -15%;
+}
+
+@media only screen and (max-width:992){
+    .row-origin {
+        flex-directio
+    }
+}
+
+/* Nos Infrastructures */
+
+.infrastructure {
+    position: relative;
+    margin-top: 5rem;
+}
+
+
+.infrastructure::after {
+    content: "";
+    width: 50%;
+    padding: 0 5%;
+    height: 3px;
+    background-color: #DFCB00;
+    position: absolute;
+    top: -15%;
+}
