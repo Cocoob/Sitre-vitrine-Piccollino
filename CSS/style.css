@@ -3,6 +3,7 @@
 body {
     margin: 0 auto;
     padding: 0 auto;
+    font-family: 'Garamond Bold';
 }
 
 
@@ -53,7 +54,13 @@ body {
     padding: 0;
 }
 
+.carousel-inner {
+    max-height: 100vh;
+}
 
-
-.carousel-control-next-icon {
-    ;
+.carousel-caption {
+    top: 50%;
+    transform: translateY(-50%);
+    height: 20vh;
+    opacity: 0.8;
+}
