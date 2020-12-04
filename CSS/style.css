@@ -124,7 +124,7 @@ h3 {
     font-size: 2.5em;
 }
 
-@media only screen and (max-width:400px){
+@media only screen and (max-width:576px){
     .card {
         width: 18rem;
     }
@@ -138,14 +138,8 @@ h3 {
     }
 }
 
-@media only screen and (max-width:600px){
 
-    .row-gamme {
-        display: flex;
-        flex-direction: column;
-    }
 
-}
 
 
 
