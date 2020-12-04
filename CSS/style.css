@@ -176,6 +176,7 @@ h3 {
 
 .origin-title, .infrastructure-title {
     width: 50%;
+    font-size: 2em;
 }
 
 .origin-text, .infrastructure-text {
