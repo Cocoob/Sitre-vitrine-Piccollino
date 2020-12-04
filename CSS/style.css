@@ -84,6 +84,7 @@ p {
     background-image: url('../IMG2/Piccolino_FondSite.png');
     width: 100%;
     height: 100%;
+    padding: 5rem;
     background-position: center;
     background-size: cover;
 }
@@ -201,4 +202,23 @@ p {
 a {
     text-decoration: none;
     color: black;
+}
+
+/* Footer */
+
+.social-icon {
+    display: inline;
+}
+
+.message-form {
+    height: 5rem;
+}
+
+.adresse, .tel {
+    font-size: 1.5em;
+    letter-spacing: 00.1rem;
+}
+
+.mention {
+    letter-spacing: 0.1rem;
 }
