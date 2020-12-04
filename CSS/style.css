@@ -23,7 +23,6 @@ body {
     font-family: 'Garamond Bold';
     font-weight: bold;
     letter-spacing: 0.3rem;
-    scroll-margin-top: 72px;
 }
 
 .navbar-nav {
@@ -245,6 +244,3 @@ a {
     letter-spacing: 0.1rem;
 }
 
-@media only screen and (max-width:400){
-    
-   
