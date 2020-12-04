@@ -118,6 +118,12 @@ p {
     background-color: #DFCB00;
 }
 
+h3 {
+    letter-spacing: 0.5rem;
+    font-weight: bold;
+    font-size: 2.5em;
+}
+
 @media only screen and (max-width:400px){
     .card {
         width: 18rem;
@@ -166,6 +172,14 @@ p {
     background-color: #DFCB00;
     position: absolute;
     top: -15%;
+}
+
+.origin-title, .infrastructure-title {
+    width: 50%;
+}
+
+.origin-text, .infrastructure-text {
+    letter-spacing: 0.1rem;
 }
 
 
