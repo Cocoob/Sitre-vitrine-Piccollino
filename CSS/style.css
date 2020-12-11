@@ -265,3 +265,18 @@ a {
     letter-spacing: 0.1rem;
 }
 
+.footer-logo img {
+    width:25vw;
+}
+
+.map {
+    width: 25vw;
+    height: 35vh;
+}
+
+@media only screen and (max-width:990px) {
+    .map {
+        width: 75%;
+        height: 75%;
+    }
+}
